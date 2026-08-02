@@ -1,0 +1,141 @@
+{
+  "schema_version": "3.0",
+  "last_updated": "2026-08-02T19:40:15.586172",
+  "images": {
+    "20260718_151614_images3.jpg": {
+      "id": "20260718_151614_images3.jpg",
+      "original_id": "20260718_151614_images3.jpg",
+      "original_name": "images3.jpg",
+      "filename": "20260718_151614_images3.jpg",
+      "path": "data\\uploads\\20260718_151614_images3.jpg",
+      "upload_date": "2026-07-18T15:16:14.591253",
+      "caption": "A smiling young female student with glasses holding notebooks.",
+      "file_size": 15252,
+      "width": null,
+      "height": null,
+      "current_version": 3,
+      "versions": [
+        {
+          "id": "20260718_151614_images3.jpg::v1",
+          "original_id": "20260718_151614_images3.jpg",
+          "parent_id": "20260718_151614_images3.jpg",
+          "version_number": 1,
+          "filename": "images3_v1_20260729_170707.jpg",
+          "path": "data\\uploads\\images3_v1_20260729_170707.jpg",
+          "created_date": "2026-07-29T17:07:07.052935",
+          "edit_prompt": "change the image background colour blue to orange ",
+          "edit_description": "To change the background color from light blue to orange, you will need to isolate the female subject using a selection tool like \"Select Subject\" in Photoshop, using \"Select and Mask\" to carefully refine the fine details around her hair. Once masked, invert the selection to target only the background area (avoiding her gray sweater and the turquoise folder) and apply a solid orange color adjustment layer or a Hue/Saturation adjustment layer shifted to orange. The expected result is a clean, professional-looking image featuring the subject seamlessly positioned against a vibrant, solid orange background with no visible blue fringing around her hair or shoulders.",
+          "applied_transforms": [],
+          "file_size": 16251,
+          "width": 547,
+          "height": 365
+        },
+        {
+          "id": "20260718_151614_images3.jpg::v2",
+          "original_id": "20260718_151614_images3.jpg",
+          "parent_id": "20260718_151614_images3.jpg::v1",
+          "version_number": 2,
+          "filename": "images3_v2_20260729_171142.jpg",
+          "path": "data\\uploads\\images3_v2_20260729_171142.jpg",
+          "created_date": "2026-07-29T17:11:42.309368",
+          "edit_prompt": "make image background blur",
+          "edit_description": "To blur the background, the solid light-blue backdrop behind the student must be isolated, leaving the woman, her glasses, clothing, and books entirely sharp. Technically, this is achieved by creating a precise selection mask around the subject, inverting the mask, and applying a Gaussian Blur filter to the background layer. The expected result is a subtle depth-of-field effect that softens the blue studio wall, making the main subject stand out more prominently.",
+          "applied_transforms": [],
+          "file_size": 16251,
+          "width": 547,
+          "height": 365
+        },
+        {
+          "id": "20260718_151614_images3.jpg::v3",
+          "original_id": "20260718_151614_images3.jpg",
+          "parent_id": "20260718_151614_images3.jpg::v2",
+          "version_number": 3,
+          "filename": "images3_v3_20260729_171557.jpg",
+          "path": "data\\uploads\\images3_v3_20260729_171557.jpg",
+          "created_date": "2026-07-29T17:15:57.336776",
+          "edit_prompt": "make this image black and white\n",
+          "edit_description": "**Analysis and Edit Instructions:**\n\n1. **Changes & Affected Areas:** The entire image must be desaturated, converting all color elements\u2014including the solid blue background, the subject's skin tones, her grey sweater, and the teal notebook\u2014into shades of gray.\n2. **Technical Approach:** Apply a Black & White adjustment layer in an image editor, adjusting the blue/cyan sliders to control the background luminosity and the red/yellow sliders to optimize the subject's skin tone contrast. \n3. **Expected Result:** A balanced, high-contrast monochrome portrait that preserves depth, texture, and facial details without color distraction.",
+          "applied_transforms": [],
+          "file_size": 15178,
+          "width": 547,
+          "height": 365
+        }
+      ]
+    },
+    "20260729_164458_images12.jpg": {
+      "id": "20260729_164458_images12.jpg",
+      "original_id": "20260729_164458_images12.jpg",
+      "original_name": "images12.jpg",
+      "filename": "20260729_164458_images12.jpg",
+      "path": "data\\uploads\\20260729_164458_images12.jpg",
+      "upload_date": "2026-07-29T16:44:58.924369",
+      "caption": "Caption generation failed",
+      "file_size": 30762,
+      "width": 596,
+      "height": 335,
+      "current_version": 4,
+      "versions": [
+        {
+          "id": "20260729_164458_images12.jpg::v1",
+          "original_id": "20260729_164458_images12.jpg",
+          "parent_id": "20260729_164458_images12.jpg",
+          "version_number": 1,
+          "filename": "images12_v1_20260729_170108.jpg",
+          "path": "data\\uploads\\images12_v1_20260729_170108.jpg",
+          "created_date": "2026-07-29T17:01:08.422651",
+          "edit_prompt": "remove the steve from this image",
+          "edit_description": "**1. Specific changes & Affected areas:** Remove the central character \"Steve\" and his pickaxe, which will affect the center foreground, midground, and the background elements directly behind him.\n\n**2. Technical approach:** Select Steve and his pickaxe using a precise lasso tool, then apply AI Generative Fill or Content-Aware Fill to reconstruct the blocky grass, stone, and background details. \n\n**3. Expected result:** A seamless Minecraft landscape showing only the surrounding animals, creeper, and environment, with the central area realistically filled in to match the blocky art style.",
+          "applied_transforms": [],
+          "file_size": 31937,
+          "width": 596,
+          "height": 335
+        },
+        {
+          "id": "20260729_164458_images12.jpg::v2",
+          "original_id": "20260729_164458_images12.jpg",
+          "parent_id": "20260729_164458_images12.jpg::v1",
+          "version_number": 2,
+          "filename": "images12_v2_20260729_170329.jpg",
+          "path": "data\\uploads\\images12_v2_20260729_170329.jpg",
+          "created_date": "2026-07-29T17:03:29.153949",
+          "edit_prompt": "make this image more sharp",
+          "edit_description": "To make this image sharper, you need to enhance the edge definition and overall contrast, focusing specifically on the blocky silhouettes of Steve, the animals, and the surrounding terrain blocks. This can be achieved by applying a **Smart Sharpen** or **Unsharp Mask** filter (or using an AI-upscaling tool) in an image editor to boost high-frequency details along the grid lines. The expected result is a much crisper, high-resolution appearance with distinct, clean-cut block outlines and reduced compression blur.",
+          "applied_transforms": [],
+          "file_size": 31937,
+          "width": 596,
+          "height": 335
+        },
+        {
+          "id": "20260729_164458_images12.jpg::v3",
+          "original_id": "20260729_164458_images12.jpg",
+          "parent_id": "20260729_164458_images12.jpg::v2",
+          "version_number": 3,
+          "filename": "images12_v3_20260729_170351.jpg",
+          "path": "data\\uploads\\images12_v3_20260729_170351.jpg",
+          "created_date": "2026-07-29T17:03:51.192629",
+          "edit_prompt": "make this image more sharp",
+          "edit_description": "To make this image sharper, the edge contrast and overall clarity need to be increased, specifically targeting the blocky geometric edges of the characters (Steve, the wolf, creeper, pig) and the environmental blocks. \n\n**Technical Approach & Expected Result:**\nDuplicate the image layer in an editor like Photoshop, apply a **High Pass filter** with a radius of approximately 1.5 to 2.5 pixels to isolate the edges, and set the layer blending mode to **Overlay** or **Soft Light** (alternatively, apply a **Smart Sharpen** filter with a low radius and high amount). This technical approach will result in crisp, highly defined block borders and a punchy, high-definition appearance that enhances the classic pixelated Minecraft aesthetic.",
+          "applied_transforms": [],
+          "file_size": 31937,
+          "width": 596,
+          "height": 335
+        },
+        {
+          "id": "20260729_164458_images12.jpg::v4",
+          "original_id": "20260729_164458_images12.jpg",
+          "parent_id": "20260729_164458_images12.jpg::v3",
+          "version_number": 4,
+          "filename": "images12_v4_20260729_170458.jpg",
+          "path": "data\\uploads\\images12_v4_20260729_170458.jpg",
+          "created_date": "2026-07-29T17:04:58.831355",
+          "edit_prompt": "make this image black and white",
+          "edit_description": "**Changes & Affected Areas:** The entire image must be converted to grayscale, removing all color from every element including the characters, green landscape, and blue sky.\n\n**Technical Approach:** Apply a Black & White adjustment layer in your image editing software (or reduce global saturation to -100%), and adjust the color channel sliders\u2014specifically greens, blues, and reds\u2014to maintain strong tonal contrast between elements. \n\n**Expected Result:** A classic, high-contrast monochrome version of the Minecraft scene that preserves all original shapes and textures in distinct shades of gray.",
+          "applied_transforms": [],
+          "file_size": 31937,
+          "width": 596,
+          "height": 335
+        }
+      ]
+    }
+  }
+}

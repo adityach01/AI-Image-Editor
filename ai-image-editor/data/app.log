@@ -1,0 +1,24 @@
+2026-08-02 18:49:51,899 | INFO | ai_image_editor | Indexed image img_x (2 vectors)
+2026-08-02 18:51:07,862 | INFO | ai_image_editor | Indexed image img_a (1 vectors)
+2026-08-02 18:51:07,875 | INFO | ai_image_editor | Indexed image img_b (1 vectors)
+2026-08-02 18:51:07,875 | INFO | ai_image_editor | Rebuilt semantic index for 2 images
+2026-08-02 18:51:07,955 | INFO | ai_image_editor | Indexed image img_x (2 vectors)
+2026-08-02 18:53:49,968 | WARNING | ai_image_editor | Falling back to hash-based embeddings: [WinError 4551] An Application Control policy has blocked this file. Error loading "D:\COLLEGE 2027\PROJECTS'2023--\ai-image-editor\.venv\Lib\site-packages\torch\lib\torch_global_deps.dll" or one of its dependencies.
+2026-08-02 18:53:50,204 | INFO | ai_image_editor | Indexed image 20260729_164458_images12.jpg (5 vectors)
+2026-08-02 18:53:50,221 | INFO | ai_image_editor | Indexed image 20260718_151614_images3.jpg (4 vectors)
+2026-08-02 18:53:50,221 | INFO | ai_image_editor | Rebuilt semantic index for 2 images
+2026-08-02 18:53:50,221 | INFO | ai_image_editor | Startup indexing complete (2 images)
+2026-08-02 18:54:12,486 | WARNING | ai_image_editor | Falling back to hash-based embeddings: [WinError 4551] An Application Control policy has blocked this file. Error loading "d:\COLLEGE 2027\PROJECTS'2023--\ai-image-editor\.venv\Lib\site-packages\torch\lib\torch_global_deps.dll" or one of its dependencies.
+2026-08-02 18:54:49,328 | WARNING | ai_image_editor | Falling back to hash-based embeddings: [WinError 4551] An Application Control policy has blocked this file. Error loading "d:\COLLEGE 2027\PROJECTS'2023--\ai-image-editor\.venv\Lib\site-packages\torch\lib\torch_global_deps.dll" or one of its dependencies.
+2026-08-02 18:56:02,443 | INFO | ai_image_editor | Removed 5 vectors for 20260729_164458_images12.jpg
+2026-08-02 18:56:02,480 | INFO | ai_image_editor | Indexed image 20260729_164458_images12.jpg (5 vectors)
+2026-08-02 18:56:07,515 | INFO | ai_image_editor | Removed 5 vectors for 20260729_164458_images12.jpg
+2026-08-02 18:56:07,557 | INFO | ai_image_editor | Indexed image 20260729_164458_images12.jpg (5 vectors)
+2026-08-02 18:59:27,582 | INFO | ai_image_editor | Indexed image img_a (1 vectors)
+2026-08-02 18:59:27,599 | INFO | ai_image_editor | Indexed image img_b (1 vectors)
+2026-08-02 18:59:27,599 | INFO | ai_image_editor | Rebuilt semantic index for 2 images
+2026-08-02 18:59:27,666 | INFO | ai_image_editor | Indexed image img_x (2 vectors)
+2026-08-02 19:02:22,384 | INFO | ai_image_editor | Indexed image img_a (1 vectors)
+2026-08-02 19:02:22,393 | INFO | ai_image_editor | Indexed image img_b (1 vectors)
+2026-08-02 19:02:22,393 | INFO | ai_image_editor | Rebuilt semantic index for 2 images
+2026-08-02 19:02:22,479 | INFO | ai_image_editor | Indexed image img_x (2 vectors)
