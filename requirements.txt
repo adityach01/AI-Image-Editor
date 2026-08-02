@@ -1,0 +1,10 @@
+streamlit>=1.31.0
+google-generativeai>=0.8.0
+pillow>=10.2.0
+python-dotenv>=1.0.0
+chromadb>=0.5.5
+sentence-transformers>=3.0.1
+fastapi>=0.114.0
+uvicorn>=0.30.6
+pydantic>=2.8.2
+pytest>=8.3.2
