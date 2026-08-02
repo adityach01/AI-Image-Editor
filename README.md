@@ -1,8 +1,8 @@
-# AI Image Editor - Week 3
+# AI Image Editor 
 
-Week 3 introduces semantic image retrieval, vector indexing, metadata schema upgrades, and API-level architecture improvements on top of the Week 1 and Week 2 upload/edit platform.
+introduces semantic image retrieval, vector indexing, metadata schema upgrades, and API-level architecture improvements on top of the Week 1 and Week 2 upload/edit platform.
 
-## Week 3 Deliverables
+##Deliverables
 
 - Dense embedding + retrieval pipeline for images and text queries
 - ChromaDB persistent vector store integrated with upload/edit lifecycle
@@ -12,33 +12,6 @@ Week 3 introduces semantic image retrieval, vector indexing, metadata schema upg
 - Streamlit semantic search UI with relevance score display
 - Test coverage for search and versioning behaviors
 
-## System Architecture (Week 3)
-
-```mermaid
-flowchart TD
-    A[User Uploads Image in Streamlit UI] --> B[ImageManager.save_image]
-    B --> C[Metadata JSON Schema v3.0]
-    C --> D[Gemini Caption Generation]
-    D --> E[ImageManager.update_caption]
-    E --> F[Sync Callback]
-    F --> G[SearchEngine.index_image]
-    G --> H[Embedding Model]
-    H --> I[ChromaDB Persistent Vector Store]
-
-    J[User Applies AI Edit] --> K[save_edited_version]
-    K --> L[Version Node with parent_id and original_id]
-    L --> F
-
-    M[User Enters Semantic Query] --> N[SearchEngine.search]
-    N --> H
-    H --> I
-    I --> O[Top-K Similar Results + Scores]
-    O --> P[Streamlit Result Grid]
-
-    Q[FastAPI /api/search] --> N
-    R[FastAPI /api/index/rebuild] --> S[SearchEngine.rebuild_index]
-    S --> I
-```
 
 ## Project Structure
 
